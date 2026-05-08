@@ -5,6 +5,7 @@ import Features from './components/Features';
 import ThoughtGallery from './components/ThoughtGallery';
 import Footer from './components/Footer';
 import CommandPalette from './components/CommandPalette';
+import Navbar from './components/Navbar';
 import { LenisProvider } from './hooks/useLenis';
 
 function App() {
@@ -15,9 +16,11 @@ function App() {
   return (
     <LenisProvider>
       <div className="relative min-h-screen bg-black text-white overflow-hidden">
-        {/* Background Glow */}
-        <div className="fixed inset-0 bg-[radial-gradient(at_50%_30%,rgba(120,80,255,0.15),transparent_70%)] pointer-events-none" />
+        {/* Dynamic Background Gradient */}
+        <div className="fixed inset-0 bg-[radial-gradient(at_40%_20%,rgba(168,85,247,0.18),transparent_50%)]" />
+        <div className="fixed inset-0 bg-[radial-gradient(at_70%_70%,rgba(236,72,153,0.12),transparent_60%)]" />
 
+        <Navbar />
         <Hero />
         <CanvasScene />
         <Features />
