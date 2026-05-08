@@ -90,7 +90,7 @@ Every thought becomes a glowing orb floating in an infinite nebula. Connect idea
 ## 🛠️ Installation & Setup
 
 ```bash
-git clone https://github.com/yourusername/aether.git
+git clone https://github.com/Prem759-0/AETHER.git
 cd aether
 
 # Install dependencies
