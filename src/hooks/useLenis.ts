@@ -9,6 +9,7 @@ export function useLenis() {
       smoothWheel: true,
       smoothTouch: false,
       touchMultiplier: 2,
+      wheelMultiplier: 1,
     });
 
     function raf(time: number) {
@@ -24,7 +25,11 @@ export function useLenis() {
   }, []);
 }
 
-export const LenisProvider = ({ children }: { children: React.ReactNode }) => {
+export const LenisProvider = ({ 
+  children 
+}: { 
+  children: React.ReactNode 
+}) => {
   useLenis();
   return <>{children}</>;
 };
