@@ -1,0 +1,11 @@
+{
+  "name": "aether",
+  "version": "1.0.0",
+  "description": "A living 3D consciousness canvas",
+  "scripts": {
+    "start": "npx serve"
+  },
+  "dependencies": {
+    "tailwindcss": "^3.4.0"
+  }
+}
